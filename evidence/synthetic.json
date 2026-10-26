@@ -1,0 +1,74 @@
+{
+  "all_known_labels": {
+    "checked": 25004,
+    "max_overestimate": 17,
+    "mean_overestimate": 8.739841625339945,
+    "underestimates": 0
+  },
+  "cardinality": {
+    "actual": 25004,
+    "estimated": 25846.734563844217,
+    "relative_error": 0.033703989915382204
+  },
+  "corpus": {
+    "distinct_labels": 25004,
+    "records": 100000,
+    "seed": 20261026,
+    "shards": 8,
+    "unique_tail_labels": 25000,
+    "weighted_hot_draws": 75000
+  },
+  "merge_matches_one_pass_bytes": true,
+  "queries": [
+    {
+      "actual": 29995,
+      "estimated": 30004,
+      "key": "/checkout",
+      "overestimate": 9
+    },
+    {
+      "actual": 22440,
+      "estimated": 22453,
+      "key": "/search",
+      "overestimate": 13
+    },
+    {
+      "actual": 15006,
+      "estimated": 15015,
+      "key": "/login",
+      "overestimate": 9
+    },
+    {
+      "actual": 7559,
+      "estimated": 7569,
+      "key": "/catalog",
+      "overestimate": 10
+    },
+    {
+      "actual": 1,
+      "estimated": 8,
+      "key": "route-12345",
+      "overestimate": 7
+    },
+    {
+      "actual": 0,
+      "estimated": 8,
+      "key": "never-observed",
+      "overestimate": 8
+    }
+  ],
+  "state_sha256": "2888b2cd7ca5ef448f0f4fb6217bc484f6b06ade414edc0cddcbd3dc754f3f60",
+  "summary": {
+    "config": {
+      "depth": 4,
+      "precision": 10,
+      "seed": 20261026,
+      "width": 2048
+    },
+    "distinct_estimate": 25846.734563844217,
+    "frequency_cells": 8192,
+    "hll_registers": 1024,
+    "serialized_bytes": 66620,
+    "total_mass": 100000
+  }
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sketchrelay"
+version = "0.1.0"
+description = "Mergeable Count-Min and HyperLogLog telemetry summaries with portable checked binary snapshots"
+requires-python = ">=3.12"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Soham Jindal"}]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/brohum10/sketchrelay"
+Issues = "https://github.com/brohum10/sketchrelay/issues"
+
+[project.scripts]
+sketchrelay = "sketchrelay.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sketchrelay*"]
+
+[tool.black]
+line-length = 100
